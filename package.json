@@ -1,0 +1,12 @@
+{
+  "name": "blocks-kit",
+  "version": "0.1.0",
+  "description": "元件收割機 — 跨專案 UI 區塊金庫:harvest 收割元件原始碼進金庫、add 播種到新專案(shadcn 慣例、零依賴 CLI)",
+  "main": "index.js",
+  "scripts": {
+    "example": "node example.js"
+  },
+  "keywords": [],
+  "author": "Jeffrey0117",
+  "license": "MIT"
+}
