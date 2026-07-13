@@ -1,10 +1,6 @@
-// ============================================================================
-// blocks-kit — 元件收割機 — 跨專案 UI 區塊金庫:harvest 收割元件原始碼進金庫、add 播種到新專案(shadcn 慣例、零依賴 CLI)
-// ----------------------------------------------------------------------------
-// 零依賴（node 內建）。factory pattern。
-// ============================================================================
-
-module.exports = function create(opts = {}) {
-  // TODO: 實作。把 app-specific 的東西用 opts 注入，只留通用核心。
-  return {};
-};
+/**
+ * blocks-kit 程式化 API — 通常你要的是 CLI:
+ *   npx github:Jeffrey0117/blocks-kit harvest <file>
+ *   npx github:Jeffrey0117/blocks-kit add <name>
+ */
+module.exports = require("./lib");

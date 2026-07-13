@@ -1,0 +1,23 @@
+{
+  "name": "anchor-nav",
+  "category": "course",
+  "description": "頁內錨點導覽列:scroll-spy + sticky,variant segmented(分段滑槽)/brand(品牌色)",
+  "origin": {
+    "repo": "https://github.com/Jeffrey0117/coursebloom-space.git",
+    "paths": [
+      "src/components/course/CourseAnchorNav.tsx"
+    ]
+  },
+  "files": [
+    "CourseAnchorNav.tsx"
+  ],
+  "deps": {
+    "npm": [],
+    "shadcn": [],
+    "internal": [],
+    "framework": [
+      "react"
+    ]
+  },
+  "harvestedAt": "2026-07-13"
+}

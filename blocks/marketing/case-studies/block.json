@@ -1,0 +1,25 @@
+{
+  "name": "case-studies",
+  "category": "marketing",
+  "description": "成功案例區:主打大卡(頭像+引言+營收數字)+ 進駐創作者小卡格,showHeading 切首頁/獨立頁模式",
+  "origin": {
+    "repo": "https://github.com/Jeffrey0117/coursebloom-space.git",
+    "paths": [
+      "src/components/marketing/CaseStudies.tsx"
+    ]
+  },
+  "files": [
+    "CaseStudies.tsx"
+  ],
+  "deps": {
+    "npm": [
+      "lucide-react"
+    ],
+    "shadcn": [],
+    "internal": [],
+    "framework": [
+      "next/link"
+    ]
+  },
+  "harvestedAt": "2026-07-13"
+}

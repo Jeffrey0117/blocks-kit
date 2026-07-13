@@ -1,0 +1,28 @@
+{
+  "name": "review-spotlight",
+  "category": "course",
+  "description": "評價區:聚光燈輪播(有留言)+ 五星卡片槽(沒留言=好到沒話說了),variant spotlight/list,高度鎖定不跳動",
+  "origin": {
+    "repo": "https://github.com/Jeffrey0117/coursebloom-space.git",
+    "paths": [
+      "src/components/course/CourseReviewList.tsx"
+    ]
+  },
+  "files": [
+    "CourseReviewList.tsx"
+  ],
+  "deps": {
+    "npm": [
+      "@tanstack/react-query",
+      "lucide-react"
+    ],
+    "shadcn": [],
+    "internal": [
+      "@/integrations/supabase/client"
+    ],
+    "framework": [
+      "react"
+    ]
+  },
+  "harvestedAt": "2026-07-13"
+}

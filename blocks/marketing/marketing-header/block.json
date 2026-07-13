@@ -1,0 +1,35 @@
+{
+  "name": "marketing-header",
+  "category": "marketing",
+  "description": "行銷站導覽列:桌機連結列+手機抽屜,捲動變色",
+  "origin": {
+    "repo": "https://github.com/Jeffrey0117/coursebloom-space.git",
+    "paths": [
+      "src/components/marketing/MarketingHeader.tsx"
+    ]
+  },
+  "files": [
+    "MarketingHeader.tsx"
+  ],
+  "deps": {
+    "npm": [
+      "@tanstack/react-query",
+      "lucide-react"
+    ],
+    "shadcn": [
+      "avatar",
+      "button",
+      "dropdown-menu",
+      "sheet"
+    ],
+    "internal": [
+      "@/integrations/supabase/client",
+      "@/providers"
+    ],
+    "framework": [
+      "next/link",
+      "react"
+    ]
+  },
+  "harvestedAt": "2026-07-13"
+}
