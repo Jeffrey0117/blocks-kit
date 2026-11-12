@@ -1,0 +1,9 @@
+{
+  "repo": 1,
+  "name": "blocks-kit",
+  "what": "元件收割機 — 跨專案 UI 區塊金庫:harvest 收割元件原始碼進金庫、add 播種到新專案(shadcn 慣例、零依賴 CLI)",
+  "kind": "kit",
+  "work": {
+    "guide": "README.md"
+  }
+}
