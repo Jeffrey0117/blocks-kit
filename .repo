@@ -5,5 +5,43 @@
   "kind": "kit",
   "work": {
     "guide": "README.md"
-  }
+  },
+  "offers": [
+    {
+      "id": "harvest",
+      "what": "在來源專案裡把打磨好的元件原始碼收割進金庫，自動掃 import 把依賴分成 npm 套件 / shadcn primitives / 專案內部相依，收完自動 commit + push（--no-push 可關）。元件打磨完、想留給之後的專案用時跑。",
+      "how": "cli",
+      "cli": "npx github:Jeffrey0117/blocks-kit harvest <file...> [--name <名稱>] [--category <分類>] [--desc \"<描述>\"] [--no-push]"
+    },
+    {
+      "id": "add",
+      "what": "在目標專案裡播種：把金庫裡的區塊原始碼複製到 src/components/<分類>/，並列出要補的 npm 依賴、shadcn primitives 與專案內部相依。引入即擁有，再改就是你的；目標專案要走 shadcn 慣例（Tailwind + @/components/ui/* + cn），內部相依要自備或改掉。",
+      "how": "cli",
+      "cli": "npx github:Jeffrey0117/blocks-kit add <name...> [--dest <目錄>] [--force]"
+    },
+    {
+      "id": "list",
+      "what": "列出金庫裡全部區塊（分類/名稱、描述、檔案、來源專案）。開新站或新頁面前先看有什麼可以播種。",
+      "how": "cli",
+      "cli": "npx github:Jeffrey0117/blocks-kit list"
+    },
+    {
+      "id": "search",
+      "what": "用關鍵字搜金庫，比對區塊的名稱、分類與描述。要某種區塊（導覽列、評價區…）時先搜，有就播種再改，不要從零寫。",
+      "how": "cli",
+      "cli": "npx github:Jeffrey0117/blocks-kit search <關鍵字>"
+    },
+    {
+      "id": "lib",
+      "what": "程式化 API：scanImports(原始碼) 把 import 分類成 npm / shadcn / internal / framework，allBlocks(金庫目錄) 讀出所有 block.json，inferCategory 從路徑推分類，kebab 把檔名轉成區塊名。要在自己的腳本裡讀金庫或分析元件依賴時用。",
+      "how": "import",
+      "import": "const { scanImports, allBlocks, inferCategory, kebab } = require(\"blocks-kit\")"
+    },
+    {
+      "id": "skill",
+      "what": "這個 kit 的打法。開新站/新頁面要 UI 區塊（導覽列、評價區、成功案例、錨點列…）時先讀，先來金庫播種再改。",
+      "how": "skill",
+      "skill": "blocks-kit"
+    }
+  ]
 }
