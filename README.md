@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.svg" width="96" height="96" alt="blocks-kit logo">
+</p>
+
 # blocks-kit 🌾
 
 **元件收割機 — 跨專案 UI 區塊金庫。** 在任何專案裡把打磨好的元件「收割」進這個 repo;開新專案時「播種」回去 — 元件是原始碼,引入即擁有,再改就是你的。零依賴 CLI(node 內建 + git)。
